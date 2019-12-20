@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 client.on('ready',async () => {
-  let GUILDID = '497768875254087691'; // اي دي السيرفر
-  let CHANNELID = '606250152642084874'; // اي دي الروم
+  let GUILDID = '656973349938921477'; // اي دي السيرفر
+  let CHANNELID = '656973349938921481'; // اي دي الروم
   voiceStay(GUILDID, CHANNELID);
   function voiceStay(guildid, channelid) {
     if(!guildid) throw new Error('Syntax: voiceStay function requires guildid');
